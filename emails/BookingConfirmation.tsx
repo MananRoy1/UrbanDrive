@@ -201,7 +201,7 @@ export default function BookingConfirmation({
 
               {/* CTA */}
               <Button
-                href="http://localhost:3000/dashboard"
+                href="https://urban-drive-car.vercel.app/dashboard"
                 style={{
                   display: "block",
                   width: "100%",
