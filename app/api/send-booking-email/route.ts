@@ -2,7 +2,7 @@ import React from "react";
 import { Resend } from "resend";
 import { NextResponse } from "next/server";
 import { render } from "@react-email/render";
-import BookingConfirmation from "@/email/BookingConfirmation";
+import BookingConfirmation from "../../../emails/BookingConfirmation";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
