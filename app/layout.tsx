@@ -27,7 +27,6 @@ export default function RootLayout({
       </head>
       <body className="bg-background-light dark:bg-background-dark text-text-main dark:text-gray-100 font-display min-h-screen flex flex-col overflow-x-hidden">
         {children}
-        {/* @ts-expect-error react-hot-toast type mismatch with Next.js */}
         <Toaster position="top-center" />
       </body>
     </html>
